@@ -37,7 +37,7 @@ body {
   .card-title {
     font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 1%;
+    margin-bottom: 5%;
   }
   
   .card-text {
@@ -50,6 +50,7 @@ body {
     flex-direction: column;
     color: #212529; /* Darker text for prices */
     margin-bottom: 1%;
+    display: inline-block; /* Align price and button inline */
   }
   
   /* Button styling */
@@ -58,6 +59,8 @@ body {
     border-color: #007bff;
     border-radius: 35%;
     font-size: 10px;
+    display: inline-block; /* Align price and button inline */
+    margin-left: 10px; /* Add space between price and button */
   }
   
   .btn-primary:hover {
@@ -114,4 +117,3 @@ body {
   font-weight: 400; /* Ensure the font weight is not too bold */
   color: #FF6347; /* Different color for the cursive text (Tomato color, for example) */
 }
-  
