@@ -17,7 +17,7 @@ body {
   }
 
   .img {
-    width: 50px; /* Resize the image to 50px width (you can change this value) */
+    width: 50px;
     height: auto; /* Maintain aspect ratio */
     vertical-align: middle; /* Align the image vertically with the text */
     margin-right: 10px; /* Add some space between the image and the text */
@@ -55,7 +55,7 @@ body {
   
   /* Button styling */
   .btn-primary {
-    background-color: #007bff; /* Bootstrap primary blue color */
+    background-color: #007bff;
     border-color: #007bff;
     border-radius: 35%;
     font-size: 10px;
@@ -64,7 +64,7 @@ body {
   }
   
   .btn-primary:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
   }
   
   /* Responsive adjustments */
@@ -99,7 +99,7 @@ body {
   height: 125px;
   padding: 1%;
   object-fit: cover;
-  border-radius: 10px; /* Optional, to round the corners */
+  border-radius: 10px;
   justify-content: space-between; /* Space between the image and the text */
 }
 
@@ -112,8 +112,8 @@ body {
 }
 
 .cursive-text {
-  font-family: 'Brush Script MT', cursive; /* Cursive font family */
-  font-size: 1.5rem; /* Adjust size as needed */
-  font-weight: 400; /* Ensure the font weight is not too bold */
-  color: #FF6347; /* Different color for the cursive text (Tomato color, for example) */
+  font-family: 'Brush Script MT', cursive; 
+  font-size: 1.5rem; 
+  font-weight: 400; 
+  color: #FF6347; 
 }
