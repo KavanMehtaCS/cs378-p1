@@ -75,12 +75,21 @@ body {
     }
   }
 
+.overall_container {
+  display: flex;
+  justify-content: center;
+}
+.secondary_container {
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    padding: 10px; /* Add padding to the container */
-  }
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px; /* Add padding to the container */
+}
 
 .menu-item {
   width: 175px;
